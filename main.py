@@ -236,7 +236,7 @@ st.pyplot(fig)
 # Calculate entropy for each method's compressed data
 huffman_entropy = calculate_compressed_entropy(huffman_encoded)
 sf_entropy = calculate_compressed_entropy(sf_encoded)
-from idlelib.colorizer import color_config
+
 
 
 
