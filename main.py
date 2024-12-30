@@ -331,14 +331,12 @@ compression_efficiency = {
 }
 
 # Plot Compression Times for Each Method
-st.subheader("Compression Time Comparison")
-compression_times = [huffman_time, sf_time, ml_time]
-methods = ["Huffman", "Shannon-Fano", "ML-Based"]
-fig, ax = plt.subplots()
-ax.bar(methods, compression_times, color=['blue', 'green', 'red'], alpha=0.7)
-ax.set_title("Compression Time for Each Method")
-ax.set_ylabel("Time (seconds)")
-st.pyplot(fig)
+#methods = ["Huffman", "Shannon-Fano", "ML-Based"]
+#fig, ax = plt.subplots()
+#ax.bar(methods, compression_times, color=['blue', 'green', 'red'], alpha=0.7)
+#ax.set_title("Compression Time for Each Method")
+#ax.set_ylabel("Time (seconds)")
+#st.pyplot(fig)
 
 # Plot Original Size vs Compressed Size
 st.subheader("Original Size vs Compressed Size")
