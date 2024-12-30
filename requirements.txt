@@ -3,3 +3,6 @@ tensorflow
 pandas
 numpy
 keras
+os
+pillow
+matplotlib
