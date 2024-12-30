@@ -1,5 +1,4 @@
-from idlelib.colorizer import color_config
-
+import tkinter
 import streamlit as st
 from collections import defaultdict
 import heapq
