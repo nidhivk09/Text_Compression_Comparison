@@ -206,7 +206,10 @@ with tab2:
 with tab3:
     m=st.container(border=True)
     with m:
-        st.write("ML-Based Encoded Text: [Encoded text is binary, not human-readable]")
+        # Convert the compressed binary data to a readable format
+        ml_encoded_readable = compressed.flatten().tolist()  # Converts to a 1D list
+        st.write("ML-Based Encoded Text (as a list of floats):", ml_encoded_readable)
+
         st.success(f"ML-Based Compressed Size: {ml_compressed_size:.2f} Bytes")
 
 
